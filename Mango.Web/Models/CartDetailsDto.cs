@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Mango.Services.ShoppingCartAPI.Models.Dto
+namespace Mango.Web.Models
 {
     public class CartDetailsDto
     {
