@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace Mango.Services.CouponAPI.Controllers
 {
     [Route("api/coupon")]
-    public class CouponController : ControllerBase
+    public class CouponAPIController : ControllerBase
     {
         protected ResponseDto _response;
         private ICouponRepository _couponRepository;
         
-        public CouponController(ICouponRepository couponRepository)
+        public CouponAPIController(ICouponRepository couponRepository)
         {
             _couponRepository = couponRepository;
             this._response = new ResponseDto();
